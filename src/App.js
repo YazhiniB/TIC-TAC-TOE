@@ -14,7 +14,8 @@ function Board({ squares, onClick }) {
   );
 
   return (
-    <div className="game-board">  // Removed 'board-row' class
+    <div className="game-board">
+      {/* Removed 'board-row' class */}
       {renderSquare(0)}
       {renderSquare(1)}
       {renderSquare(2)}
